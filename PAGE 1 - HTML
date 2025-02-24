@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style4.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROCESSING</title>
+</head>
+<body>
+  <div class="box">
+    <img src="icon.png" alt="settings">
+    <p>PROCESSING, PLEASE WAIT TO GET NOTIFIED<p>
+    </div> 
+    <nav>
+        <ul>
+            <li><a href="https://www.facebook.com/jansen.karl.gumabon.2024"><img src="fb-removebg-preview.png" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/cest_moi_bnsoy/"><img src="w-removebg-preview.png" alt="Instagram"></a></li>
+           
+            
+        </ul>
+    </nav>
+        
+      
+    
+</body>
+</html>
