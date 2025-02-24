@@ -1,32 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be a Technologist</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style3.css">
-</head>
-<body>
-    <div class="container">
-        <h1>BE A TECHNOLOGIST!</h1>
+body {
+    position: relative; 
+    margin: 0; 
+    height: 100vh;
+    overflow: hidden; 
+}
 
-        <div class="form-group"><input type="text" placeholder="Full Name"></div>
-        <div class="form-group"><input type="datetime" placeholder="Birth date"></div>
-        <div class="form-group"><input type="text" placeholder="Address"></div>
-        <div class="form-group"><input type="tel" placeholder="Phone No."></div>
-        <div class="form-group"><input type="email" placeholder="Email"></div>
-        <div class="form-group"><input type="text" placeholder="Grade"></div>
+body::before {
+    content: ""; 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    background-image: url("image.jpg");
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+    background-size: cover; 
+    filter: blur(7px);  
+    z-index: -1; 
+}
 
-        <div class="upload-box">
-            <span>UPLOAD YOUR DOCUMENTS HERE</span>
-            <span>+</span>
-        </div>
+h1 { 
+    font-family: "Bebas Neue"; 
+    font-size: 125px; 
+    position: absolute; 
+    top: 38px; 
+    left: 265px; 
+    color: #fcfafd; 
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    opacity: 0; 
+    animation: fadeIn 2s forwards; }
 
-        <div class="button">
-            <a href="page2.html" class="go-back">Go Back</button>
-            <a href="page4.html" class="submit">Submit</button>
-        </div>
-    </div>
-</body>
-</html>
+
+
+
+@keyframes fadeIn { 0% { opacity: 0; } 100% { opacity: 1; } }
+
+button { background-color: rgba(235, 235, 235, 0.24);
+            margin: 0%;
+            position: absolute;
+            border-radius: 8px; font-size: 35px; 
+            border-width: 16px;
+            color: rgb(255, 255, 255);
+            border: solid; font-family: "Bebas Neue"; 
+            bottom: 85px; left: 950px; padding: 10px 20px;
+            transition: transform 0.3s ease; }
+
+button:hover { transform: scale(1.1); }
+
+button:active { transform: scale(1); }

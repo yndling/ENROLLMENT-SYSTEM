@@ -1,32 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be a Technologist</title>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style3.css">
-</head>
-<body>
-    <div class="container">
-        <h1>BE A TECHNOLOGIST!</h1>
-
-        <div class="form-group"><input type="text" placeholder="Full Name"></div>
-        <div class="form-group"><input type="datetime" placeholder="Birth date"></div>
-        <div class="form-group"><input type="text" placeholder="Address"></div>
-        <div class="form-group"><input type="tel" placeholder="Phone No."></div>
-        <div class="form-group"><input type="email" placeholder="Email"></div>
-        <div class="form-group"><input type="text" placeholder="Grade"></div>
-
-        <div class="upload-box">
-            <span>UPLOAD YOUR DOCUMENTS HERE</span>
-            <span>+</span>
-        </div>
-
-        <div class="button">
-            <a href="page2.html" class="go-back">Go Back</button>
-            <a href="page4.html" class="submit">Submit</button>
-        </div>
-    </div>
-</body>
-</html>
+body { 
+    
+    font-family: Arial, sans-serif;
+    background-color: #1e3a56;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    background: dark navy blue;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.left-section {
+    padding: 20px;
+}
+.steps {
+    margin-top: 20px;
+}
+.step {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.step img {
+    width: 30px;
+    margin-right: 10px;
+}
+.step span {
+    color: limegreen;
+    font-size: 24px;
+    margin-left: auto;
+}
+.right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.students-image {
+    width: 250px;
+    margin-bottom: 20px;
+}
+.enroll-btn {
+    background-color: rgb(255, 115, 0);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
