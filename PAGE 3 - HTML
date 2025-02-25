@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>BE A TECHNOLOGIST!</h1>
+        <h1>BE PART OF OUR SCHOOL NOW!</h1>
 
         <form action="connect.php" method="post">
             <div class="form-group"><input type="text" name="fullname" placeholder="Full Name" required></div>
