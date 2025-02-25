@@ -5,28 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be a Technologist</title>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style3.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>BE PART OF OUR SCHOOL!</h1>
+        <h1>BE A TECHNOLOGIST!</h1>
 
-        <div class="form-group"><input type="text" placeholder="Full Name"></div>
-        <div class="form-group"><input type="datetime" placeholder="Birth date"></div>
-        <div class="form-group"><input type="text" placeholder="Address"></div>
-        <div class="form-group"><input type="tel" placeholder="Phone No."></div>
-        <div class="form-group"><input type="email" placeholder="Email"></div>
-        <div class="form-group"><input type="text" placeholder="Grade"></div>
+        <form action="connect.php" method="post">
+            <div class="form-group"><input type="text" name="fullname" placeholder="Full Name" required></div>
+            <div class="form-group"><input type="date" name="birthdate" placeholder="Birth Date" required></div>
+            <div class="form-group"><input type="text" name="address" placeholder="Address" required></div>
+            <div class="form-group"><input type="tel" name="number" placeholder="Number" required></div>
+            <div class="form-group"><input type="email" name="email" placeholder="Email" required></div>
+            <div class="form-group"><input type="text" name="grade" placeholder="Grade" required></div>
 
-        <div class="upload-box">
+            <div class="upload-box">
             <span>UPLOAD YOUR DOCUMENTS HERE</span>
             <span>+</span>
-        </div>
 
-        <div class="button">
-            <a href="page2.html" class="go-back">Go Back</button>
-            <a href="page4.html" class="submit">Submit</button>
-        </div>
+            <div class="buttons">
+                <a href="page2.html" class="go-back">Go Back</a>
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
+index.php
+fonts.googleapis.com
